@@ -79,6 +79,7 @@ ${HOME}
 |   |-- home-manager/
 |   |   |-- bin/
 |   |   |   |-- home-manager-switch.sh*
+|   |   |   |-- make-archive.sh*
 |   |   |   |-- nix-flake-update.sh*
 |   |   |   |-- nix-store-gc.sh*
 |   |   |   `-- setup.sh*
@@ -163,5 +164,5 @@ nix store gc
 nix-collect-garbage --delete-old
 ```
 
-### 参考
+## 参考
 - [Nix Home Manager のつまづき石をまとめる ||| Apribase](https://apribase.net/2023/08/22/nix-home-manager-qa/)

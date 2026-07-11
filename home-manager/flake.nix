@@ -15,7 +15,8 @@
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-      # 環境変数を取得するためnix実行時に--impureオプションを指定する
+      # 以下の設定を有効にするためnix実行時に--impureオプションを指定すること。
+      # --impureオプションを指定しないとgetEnvはブランクを返す。
       username = builtins.getEnv "USER";
     in
     {
