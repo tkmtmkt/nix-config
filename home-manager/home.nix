@@ -41,11 +41,11 @@ in
 
     # 代替コマンド
     bottom              # 代替コマンド: top
+    btop                # 代替コマンド: top
     duf                 # 代替コマンド: df
     dust                # 代替コマンド: du
     fd                  # 代替コマンド: find
     hexyl               # 代替コマンド: od
-    htop                # 代替コマンド: top
     hyperfine           # 代替コマンド: time
     procs               # 代替コマンド: ps
     tldr                # 代替コマンド: man
