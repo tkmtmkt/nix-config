@@ -13,7 +13,7 @@
     ];
 
     # コマンドのエイリアス設定
-    changeDirWidgetCommand = "fd --type d";
-    fileWidgetCommand = "fd --type f";
+    changeDirWidget.command = "fd --type d";
+    fileWidget.command = "fd --type f";
   };
 }
