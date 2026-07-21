@@ -11,6 +11,6 @@ tar zcf ~/dotconfig-$(date +%F-%H%M%S).tar.gz \
   ~/.config \
   ~/.local \
   ~/.nix-* \
-  /nix/store/
+  /nix/
 
 # vim: set ft=sh ts=2 sw=2 et:
