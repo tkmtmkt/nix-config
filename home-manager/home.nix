@@ -53,6 +53,7 @@ in
     devbox              # 開発環境構築ツール
     dvc                 # データバージョン管理ツール
     git                 # バージョン管理ツール
+    httpie              # httpクライアント
     pandoc              # 汎用ドキュメント相互変換ツール
     uv                  # Pythonパッケージ管理ツール
     zensical            # 高速Webドキュメント作成ツール
