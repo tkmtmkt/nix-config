@@ -40,14 +40,14 @@ cd ~/.config/home-manager
 NixをインストールしてHome Managerを適用します：
 
 ```sh
-bin/setup.sh
+home-manager/bin/setup.sh
 ```
 
 セットアップをやり直す場合：
 
 ```sh
 rm -rf ~/.local/state/nix
-bin/setup.sh
+home-manager/bin/setup.sh
 ```
 
 ## 使い方
@@ -60,14 +60,14 @@ bin/setup.sh
 変更後は以下を実行して反映します：
 
 ```bash
-bin/home-manager-switch.sh
+home-manager/bin/home-manager-switch.sh
 ```
 
 ### アップデート
 
 ```sh
 # Nixパッケージ更新
-bin/nix-flake-update.sh
+home-manager/bin/nix-flake-update.sh
 ```
 
 ## 補足
@@ -140,7 +140,7 @@ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 # ※これは使えない。以下のエラーで失敗する。成功した場合はバージョンが古いものになる。
 # error: directory "xxxx profile" is managed by 'nix profile' and currently cannot be upgraded by 'nix upgrade-nix'
 rm -rf ~/.local/state/nix
-bin/setup.sh
+home-manager/bin/setup.sh
 
 # パッケージ一覧
 nix profile list
