@@ -132,6 +132,7 @@ in
     ./programs/ripgrep.nix              # 代替コマンド: grep
     # 開発用ツール
     ./programs/direnv.nix               # direnvのシェル統合設定
+    ./programs/jujutsu.nix              # バージョン管理ツール
     # その他ツール
     ./programs/fzf.nix                  # 曖昧検索（ファジーファインダー）ツール
     ./programs/gpg.nix                  # 暗号化・電子署名ツール
