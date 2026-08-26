@@ -162,6 +162,9 @@ nix store gc
 
 # 古い世代や不要なパッケージを削除する
 nix-collect-garbage --delete-old
+
+# GC root(GCの起点となるオブジェクトやパス)の一覧
+nix-store --gc --print-roots
 ```
 
 ## 参考
