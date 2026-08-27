@@ -7,11 +7,15 @@
     # 共通設定 (config.yml に反映される内容)
     settings = {
       git = {
-        pagers = [
-          # Gitのdiffにdeltaを使用する場合の例
+        paging = {
+          colorArg = "always";
+          pager = "delta --dark --paging=never";
+        };
+        # customArgs 等ではなく外部ディフレンダラーを設定する場合
+        diffRenderers = [
           {
-            colorArg = "";
-            pager = "delta --dark --paging=never";
+            type = "stdinFilter";
+            command = "delta --color-only"; # command の明示が必須
           }
         ];
         # コミットメッセージの表示などに使用する設定
