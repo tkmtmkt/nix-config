@@ -56,6 +56,7 @@ in
     httpie              # httpクライアント
     uv                  # Pythonパッケージ管理ツール
     # ドキュメント用ツール
+    mermaid-cli         # mermaid形式ファイルから画像生成
     pandoc              # 汎用ドキュメント相互変換ツール
     zensical            # 高速Webドキュメント作成ツール
     # その他ツール
